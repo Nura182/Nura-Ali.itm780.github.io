@@ -1,0 +1,92 @@
+/* Body */
+body {
+    font-family: Arial;
+    font-size: 12pt;
+    background-color: #f4f1de; /* background colour */
+    color: #669bbc; /* foreground colour */
+    margin: 20pt; /* Margin  */
+}
+
+/*Heading tags */
+h1 {
+    font-size: 40pt;
+    text-align: center;
+    color: #1b263b;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25pt;
+    color: #415a77; 
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16pt;
+    color: #669bbc; 
+    font-weight: normal;
+}
+
+/* Paragraph tags */
+p {
+    font-size: 14pt;
+    color: #780000; 
+    font-weight: normal;
+}
+
+/* Link styles */
+a:link, a:visited {
+    color: #3498db; /* Light blue for non-visited and visited links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9; /* Darker blue when hovered */
+    text-decoration: underline;
+}
+
+a:active {
+    color: #e74c3c; /* Red color when the link is clicked */
+}
+
+/* Div styling */
+div.text {
+    padding: 10px;
+    border: 1px solid #778da9; /*  border around text */
+    background-color: #edf6f9; /* background of text */
+}
+
+div.links {
+    padding: 10px;
+    border: 1px solid #f6f6f6; /* border around links */
+    background-color: #ecf2f2; /* Very light gray background */
+}
+
+/* CSS Table */
+.table {
+    display: table; /* Create a table layout */
+    width: 100%; 
+    margin-top: 20pt; 
+}
+
+.table-row {
+    display: table-row; /* Create a table row */
+}
+
+.table-cell {
+    display: table-cell; /* Create a table cell */
+    width: 50%; 
+    padding: 10pt; 
+    border: 1px solid #ccc; 
+    background-color: #ffffff; 
+}
+
+/* Style the image */
+img {
+    display: block;
+    margin: 15px auto; /* Centers the image horizontally */
+    max-width: 100%;   /* Makes sure the image is responsive */
+    height: auto;      /* Maintains aspect ratio */
+    border: 2px solid #ccc; /* Optional: adds a light border to the image */
+}
+
