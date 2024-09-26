@@ -87,6 +87,6 @@ img {
     margin: 15px auto; /* Centers the image horizontally */
     max-width: 100%;   /* Makes sure the image is responsive */
     height: auto;      /* Maintains aspect ratio */
-    border: 2px solid #ccc; /* Optional: adds a light border to the image */
+    border: 2px solid #ccc; /* adds a light border to the image */
 }
 
